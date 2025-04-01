@@ -1,0 +1,18 @@
+{
+  "name": "sentry-cookies-checkout",
+  "version": "1.0.0",
+  "description": "Automated checkout for Sentry Shop cookies",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
